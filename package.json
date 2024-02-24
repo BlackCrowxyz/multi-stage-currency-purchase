@@ -1,0 +1,27 @@
+{
+  "name": "multi-stage-currency-purchase",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.10.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.34",
+    "postcss-apply": "^0.12.0",
+    "sass": "^1.70.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "packageManager": "yarn@4.1.0"
+}
