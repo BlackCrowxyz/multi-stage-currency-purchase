@@ -1,6 +1,5 @@
 import { VNode } from "vue";
 import { limitDecimalPlaces } from "../helpers/utils";
-import VMoney from "v-money3";
 
 // Adjusting the directive to use argument (binding.arg) for the limit
 export default defineNuxtPlugin((nuxtApp) => {
@@ -16,6 +15,4 @@ export default defineNuxtPlugin((nuxtApp) => {
       });
     },
   });
-  // v-money3
-  nuxtApp.vueApp.directive("money", VMoney);
 });
